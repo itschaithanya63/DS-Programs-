@@ -7,7 +7,7 @@ struct Node{
     struct Node* next;
 };
 
-// ✅ ADDED (function prototype)
+//function prototype
 int search(struct Node*head,int target);
 
 struct Node* createNode(int data){
@@ -115,7 +115,7 @@ void traverse(struct Node*head){
         temp=temp->next;
     }
     printf("NULL\n");
-}   // ✅ ADDED THIS MISSING BRACE
+} 
 
 int search(struct Node*head,int target){
     struct Node*temp=head;
